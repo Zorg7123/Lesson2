@@ -10,7 +10,7 @@ public class Homework2 {
         System.out.println(doQuest5(1992));
     }
 
-    // Quest 1
+    // Quest 1.
     public static boolean doQuest1(int a, int b){
         int sum = a + b;
         if (sum >= 10 && sum <= 20) {
@@ -19,7 +19,7 @@ public class Homework2 {
         return false;
     }
 
-    // Quest 2
+    // Quest 2.
     public static void doQuest2(int x) {
         if (x >= 0) {
             System.out.println("Положительное");
@@ -27,7 +27,7 @@ public class Homework2 {
             System.out.println("Отрицательное");
         }
     }
-    // Quest 3
+    // Quest 3.
         public static boolean doQuest3(int x) {
            if (x >= 0) {
                return true;
@@ -35,13 +35,13 @@ public class Homework2 {
                return false;
            }
         }
-    // Quest 4
+    // Quest 4.
         public static void doQuest4(String str, int n) {
             for (int i = 1; i <= n; i++) {
                 System.out.println("[" + i + "]" + " " + str);
             }
         }
-    // Quest 5
+    // Quest 5.
         public static boolean doQuest5(int year) {
            if ((year % 4 == 0 && year % 100 !=0) || year % 400 ==0) {
                return true;
